@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delete Book</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/all.min.css"/>
+</head>
+<body>
+  <div class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="myaccount.html">My Account</a>
+    <a href="bemember.html">Be a Member</a>
+    <a href="accessibilitytools.html">Accessibility Tools</a>
+    <a href="newpublished.html">New Published</a>
+    <a href="ourselection.html">Our Selection</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+  </div>
+
+  <div class="main-container">
+    <h1>Delete Book</h1>
+
+    <form action="/books/delete" method="POST" class="form-box">
+      <label for="isbn">ISBN (Book to Delete):</label>
+      <input type="text" name="isbn" required>
+
+      <button type="submit">Delete Book</button>
+    </form>
+
+    <a href="librariandashboard.html" class="back-link">← Back to Dashboard</a>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2025 Library Management System. All rights reserved.</p>
+  </footer>
+</body>
+</html>
