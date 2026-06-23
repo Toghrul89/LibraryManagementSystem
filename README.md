@@ -4,6 +4,24 @@ A full-stack Library Management System developed as a capstone project at Seattl
 
 This application provides a web-based platform for managing library resources, users, and book records. The project was built collaboratively as part of the Software Development program and demonstrates experience with both frontend and backend development using modern Java technologies.
 
+## Screenshots
+
+| Home Page | My Account |
+|-----------|------------|
+| ![](screenshots/homepage.png) | ![](screenshots/myaccount.png) |
+
+| Contact Us | Become a Member |
+|------------|----------------|
+| ![](screenshots/contactus.png) | ![](screenshots/bemember.png) |
+
+| Accessibility | New Published Books |
+|--------------|--------------------|
+| ![](screenshots/accessibility.png) | ![](screenshots/newpublished.png) |
+
+| Our Selection | About Us |
+|--------------|----------|
+| ![](screenshots/ourselection.png) | ![](screenshots/aboutus.png) | 
+
 ## Features
 
 * Browse library collections
